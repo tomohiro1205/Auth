@@ -30,6 +30,7 @@ struct AuthApp: App {
                 HelloPage(viewModel: viewModel)
             } else {
                 SignInView(viewModel: viewModel)
-            }        }
+            }
+        }
     }
 }
